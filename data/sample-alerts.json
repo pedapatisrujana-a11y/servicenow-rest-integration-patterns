@@ -1,0 +1,9 @@
+{
+  "_note": "Synthetic monitoring alerts for local testing. No real systems.",
+  "alerts": [
+    {"external_id": "mon-0001", "summary": "Disk usage above 95% on web-prd-01", "severity": "major", "ci_name": "web-prd-01"},
+    {"external_id": "mon-0002", "summary": "Certificate expires in 7 days for portal", "severity": "warning"},
+    {"external_id": "mon-0001", "summary": "Disk usage above 95% on web-prd-01 (repeat)", "severity": "major", "ci_name": "web-prd-01"},
+    {"external_id": "bad id!", "summary": "x", "severity": "urgent"}
+  ]
+}
