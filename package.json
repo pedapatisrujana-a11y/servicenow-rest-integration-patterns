@@ -1,0 +1,12 @@
+{
+  "name": "servicenow-rest-integration-patterns",
+  "version": "1.0.0",
+  "description": "Resilient outbound REST client and idempotent inbound Scripted REST handler for ServiceNow, with unit tests.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node scripts/demo.js"
+  },
+  "engines": { "node": ">=18" }
+}

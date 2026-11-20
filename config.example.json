@@ -1,0 +1,13 @@
+{
+  "outbound": {
+    "endpointProperty": "x_portfolio.asset_api.endpoint",
+    "credentialAlias": "<Connection & Credential alias sys_id>",
+    "maxRetries": 3,
+    "baseDelayMs": 500,
+    "timeoutMs": 30000
+  },
+  "inbound": {
+    "defaultGroupProperty": "x_portfolio.inbound.default_group",
+    "externalRefField": "correlation_id"
+  }
+}
